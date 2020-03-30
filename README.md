@@ -12,4 +12,6 @@ These scripts cover RNA-seq analysis starting with fastq files
 
 4. Run *hisat2.sh* to align sequences and create sam files
 
-5. 
+5. Run *samtools.sh* to convert sam to bam and sort
+
+6. 
