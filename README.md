@@ -21,7 +21,7 @@ Software required:
 -GASTROC_DO_005
 -GASTROC_DO_006
 -GASTROC_DO_009
--GASTROC_DO_10`
+-GASTROC_DO_10
 
 3. Run command `multiqc .` in directory with fastqc summaries to produce one overall report to check if adapter trimming worked.
 
