@@ -17,13 +17,13 @@ Software required:
 1. Run [fastqc.sh](https://github.com/willrosenow/RNA-seq/blob/master/fastqc.sh) to check if adapters are present. Best to run this on only one file as a test.
 
 2. If adapters are present run [trimmomatic.sh](https://github.com/willrosenow/RNA-seq/blob/master/trimmomatic.sh) to trim them using a provided adapter sequence. This script and most following it require a samples.txt file containing sample names. Similar to the list below:
-
+```
 GASTROC_DO_004
 GASTROC_DO_005
 GASTROC_DO_006
 GASTROC_DO_009
 GASTROC_DO_10
-
+```
 3. Run command `multiqc .` in directory with fastqc summaries to produce one overall report to check if adapter trimming worked.
 
 4. Run [hisat2.sh](https://github.com/willrosenow/RNA-seq/blob/master/hisat2.sh) to map sequence reads to known transcriptome and create sam files. 
