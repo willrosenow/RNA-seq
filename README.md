@@ -10,12 +10,12 @@ These scripts cover RNA-seq analysis starting with fastq files
 
 3. Run command `multiqc .` in directory with fastqc summaries to produce one overall report to check if adapter trimming worked.
 
-4. Run [hisat2.sh] (https://github.com/willrosenow/RNA-seq/blob/master/hisat2.sh) to map sequences reads to known transcriptome and create sam files. 
+4. Run [hisat2.sh](https://github.com/willrosenow/RNA-seq/blob/master/hisat2.sh) to map sequences reads to known transcriptome and create sam files. 
 
-5. Run [samtools.sh] (https://github.com/willrosenow/RNA-seq/blob/master/samtools.sh) to convert sam files to bam files and sort them.
+5. Run [samtools.sh](https://github.com/willrosenow/RNA-seq/blob/master/samtools.sh) to convert sam files to bam files and sort them.
 
 6. Run [first_assembly.sh](https://github.com/willrosenow/RNA-seq/blob/master/first_assembly.sh) to assemble the sequencing reads.
 
-7. Run [merge.sh] (https://github.com/willrosenow/RNA-seq/blob/master/merge.sh) to merge all the samples together.
+7. Run [merge.sh](https://github.com/willrosenow/RNA-seq/blob/master/merge.sh) to merge all the samples together.
 
-8. Run [second_run] (https://github.com/willrosenow/RNA-seq/blob/master/second_run.sh)to correct quantification based on library size.
+8. Run [second_run](https://github.com/willrosenow/RNA-seq/blob/master/second_run.sh)to correct quantification based on library size.
