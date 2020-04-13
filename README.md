@@ -32,7 +32,12 @@ GASTROC_DO_10
 
 6. Run [first_assembly.sh](https://github.com/willrosenow/RNA-seq/blob/master/first_assembly.sh) to assemble the sequencing reads.
 
-7. Run [merge.sh](https://github.com/willrosenow/RNA-seq/blob/master/merge.sh) to merge all the samples together.
+7. Run [merge.sh](https://github.com/willrosenow/RNA-seq/blob/master/merge.sh) to merge all the samples together. This requires a mergelist.txt file that lists all gtf files to be merged. Similar to the list below:
+```
+BM-PP1-1_stringtie.gtf
+BM-PP1-2_stringtie.gtf
+BM-PP1-3_stringtie.gtf
+```
 
 8. Run [second_run.sh](https://github.com/willrosenow/RNA-seq/blob/master/second_run.sh) to correct quantification based on library size.
 
