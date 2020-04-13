@@ -2,6 +2,15 @@
 
 These scripts cover RNA-seq analysis starting with fastq files
 
+Software required:
+  *fastqc*
+  *multiqc*
+  *trimmomatic*
+  *hisat2*
+  *samtools*
+  *stringtie*
+  
+
 # Workflow
 
 1. Run [fastqc.sh](https://github.com/willrosenow/RNA-seq/blob/master/fastqc.sh) to check if adapters are present. Best to run this on only one file as a test.
