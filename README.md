@@ -41,4 +41,9 @@ BM-PP1-3_stringtie.gtf
 
 8. Run [second_run.sh](https://github.com/willrosenow/RNA-seq/blob/master/second_run.sh) to correct quantification based on library size.
 
-9. Run [prepDE.sh](https://github.com/willrosenow/RNA-seq/blob/master/prepDE.sh) to create gene count and trascript count matricies that can then be used for downstream analyses (i.e. differential expression, PCA, hierarchical clustering). Note this script uses python 2.
+9. Run [prepDE.sh](https://github.com/willrosenow/RNA-seq/blob/master/prepDE.sh) to create gene count and trascript count matricies that can then be used for downstream analyses (i.e. differential expression, PCA, hierarchical clustering). Note this script uses python 2 and uses a file containing gtf filenames and absolute paths similar to the one below:
+```
+Farber_R_Brain_RNA_10_stringtie.gtf     /scratch/wr8yp/brain_rna_seq/trimmed_paired/sam_files/first_assembly/Farber_R_Brain_RNA_10_stringtie.gtf
+Farber_R_Brain_RNA_11_stringtie.gtf     /scratch/wr8yp/brain_rna_seq/trimmed_paired/sam_files/first_assembly/Farber_R_Brain_RNA_11_stringtie.gtf
+Farber_R_Brain_RNA_12_stringtie.gtf     /scratch/wr8yp/brain_rna_seq/trimmed_paired/sam_files/first_assembly/Farber_R_Brain_RNA_12_stringtie.gtf
+```
