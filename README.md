@@ -3,11 +3,11 @@
 These scripts cover RNA-seq analysis starting with fastq files
 
 Software required:
-  *fastqc*
-  *multiqc*
-  *trimmomatic*
-  *hisat2*
-  *samtools*
+  *fastqc*,
+  *multiqc*,
+  *trimmomatic*,
+  *hisat2*,
+  *samtools*,
   *stringtie*
   
 
