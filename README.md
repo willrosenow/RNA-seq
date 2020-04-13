@@ -14,4 +14,4 @@ These scripts cover RNA-seq analysis starting with fastq files
 
 5. Run *samtools.sh* to convert sam to bam and sort
 
-6. 
+6. Run (https://github.com/willrosenow/RNA-seq/blob/master/first_assembly.sh) for first assembly
